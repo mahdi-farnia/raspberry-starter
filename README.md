@@ -54,5 +54,5 @@ App uses [gpiod](https://pypi.org/project/gpiod/) PyPi package instead of system
 
 App runs on port 8000 & listens on all interfaces (0.0.0.0).
 
-This project built for Raspberry PI 4B with kernel version **6.12** OS **Debian Bookworm**.
+This project built for Raspberry PI 4B with kernel version **6.12** OS **Debian Trixie**.
 
