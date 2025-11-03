@@ -1,0 +1,12 @@
+services:
+  blink:
+    container_name: blink
+    build:
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
+    volumes:
+      - /dev/gpiochip0:/dev/gpiochip0
+    ports:
+      - "8000:8000"
+

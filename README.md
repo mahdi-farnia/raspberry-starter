@@ -6,16 +6,17 @@ Hello world project for embedded systems!
 
 You can use *astral-uv* or pip itself to configure this project.
 
-### Settings Up pip
+### Set Up With pip
 
 This approuch does not needs third party installations.
 
 ```sh
 python -m venv .venv
 python -m pip install -r requirements.txt
+python -m blink
 ```
 
-### Setting Up UV
+### Set Up With UV
 
 First you need to install [astral-uv](https://docs.astral.sh/uv/getting-started/installation/).
 
@@ -30,6 +31,14 @@ To run the app:
 ```sh
 uv run -m blink
 ```
+
+## Setup With Docker (Recommended)
+
+```sh
+docker compose up --build
+```
+
+Your are good to go!
 
 ## Usage
 
